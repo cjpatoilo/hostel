@@ -1,0 +1,34 @@
+{
+	"name": "hostel",
+	"version": "0.0.0",
+	"description": "An establishment that provides inexpensive food and lodging for travelers.",
+	"homepage": "https://cjpatoilo.com/hostel",
+	"repository": "cjpatoilo/hostel",
+	"license": "MIT",
+	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
+	"bin": "bin/index.js",
+	"keywords": [
+		"repository",
+		"github",
+		"hostel"
+	],
+	"ignore": [
+		".editorconfig",
+		".gitignore",
+		".github",
+		".travis.yml",
+		".npmignore",
+		"package.json",
+		"test"
+	],
+	"dependencies": {
+	},
+	"devDependencies": {
+	},
+	"engines": {
+		"node": "^6.0.0"
+	},
+	"scripts": {
+		"test": "node test/test.js"
+	}
+}
